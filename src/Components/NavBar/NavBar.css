@@ -1,0 +1,28 @@
+.navBar {
+    width: 100%;
+    height: inherit;
+ position: static;
+    background-color: rgb(35, 47, 62);
+    height: 50px;
+}
+
+.navBar_wrap ul {
+    display: flex;
+justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+}
+
+.navBar_wrap li {
+    text-decoration: none;
+    list-style: none;
+
+}
+.navBar_wrap a{
+    text-decoration: none;
+color: #fff;
+}
+.navBar_wrap ul li :hover {
+ border: 1px solid #fff;
+opacity: 0.8;
+}
